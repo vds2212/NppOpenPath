@@ -15,6 +15,7 @@ vs.proj/NppPluginTemplate.vcxproj.user
 messages.log
 tags
 vs.proj/.vs
+vs.proj/NppOpenPath
 *.user
 *.exp
 *.lib
