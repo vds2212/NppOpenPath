@@ -63,8 +63,8 @@ void commandMenuInit()
     //            ShortcutKey *shortcut,          // optional. Define a shortcut to trigger this command
     //            bool check0nInit                // optional. Make this menu item be checked visually
     //            );
-    setCommand(0, TEXT("Open Path"), openFile, NULL, false);
-	setCommand(1, TEXT("Extend Selection"), extendSelection, NULL, false);
+    setCommand(0, const_cast<TCHAR*>(TEXT("Open Path")), openFile, NULL, false);
+	setCommand(1, const_cast<TCHAR*>(TEXT("Extend Selection")), extendSelection, NULL, false);
 }
 
 //
