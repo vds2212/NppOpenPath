@@ -9,7 +9,7 @@
 ```
 
 - Or replace the line:
-```
+```xml
 <Item MenuEntryName="Edit" MenuItemName="Open File"/>
 ```
 by:
